@@ -1,0 +1,23 @@
+Privacy Policy — Pluck Browser Extension
+
+Last updated: 22 February 2026
+
+Pluck is a visual clipboard tool that captures images from web pages and saves them locally on your Mac via the Pluck macOS companion app.
+
+Data Collection
+Pluck does not collect, transmit, or store any personal data. No information is sent to external servers. All captured images and metadata (page URL, page title) are sent exclusively to the local Pluck macOS app via Chrome native messaging and stored on your device.
+
+Data Sharing
+Pluck does not share any data with third parties.
+
+Analytics and Tracking
+Pluck does not include any analytics, telemetry, or tracking.
+
+Cookies
+Pluck does not use cookies.
+
+Local Storage
+The extension stores debug diagnostic snapshots in Chrome's local storage for troubleshooting purposes. This data never leaves your browser.
+
+Contact
+For questions about this policy, open an issue at https://github.com/krissolling/pluck-releases/issues
