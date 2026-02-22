@@ -5,6 +5,14 @@
         <item>
             <title>2.0.0</title>
             <pubDate>Sun, 22 Feb 2026 17:20:01 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.0.0/Pluck-2.0.0.zip" length="177026063" type="application/octet-stream" sparkle:edSignature="1MY6bwPIWFxiTCyo6K8Ecy/5b2f9p9On6HAm4Xk0qElNDO0g/i0oFVgxBXcn9G6M+M4CycsfvIyOKbOyfEHVBA=="/>
+        </item>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Sun, 22 Feb 2026 17:20:01 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
