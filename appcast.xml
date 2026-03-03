@@ -3,14 +3,14 @@
     <channel>
         <title>Pluck</title>
         <item>
-            <title>2.0.17</title>
+            <title>2.1.0</title>
             <pubDate>Tue, 03 Mar 2026 11:23:41 +0000</pubDate>
             <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>2.0.17</sparkle:shortVersionString>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.0.17/Pluck-2.0.17.zip" length="177968802" type="application/octet-stream" sparkle:edSignature="aoC1TW2D4sb25NsJRvvri8cb9/alL+NpRGlRH3bQ77EIF6VdgbBTLBYxBV+A7ppg8sQxrN8h99i/2kOoSZGSCw=="/>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.1.0/Pluck-2.1.0.zip" length="178039221" type="application/octet-stream" sparkle:edSignature="VHxd88ukpn61ZdGzMm4g3v+M3kNcw7+vwe3que7NA7mnCJK0nNElZgk5b8zv8cyOSf7fAx0kNwiSAHP48I0mAQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.0.17/Pluck30-29.delta" sparkle:deltaFrom="29" length="501130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WmDrmPSWc9HciBdl6zTRfDs0EisyThSpJ7eWuX/Se3z73W+BRP4QbeEuzdDdhuHtZ8JvMP9dOXApi7nawD1xDQ=="/>
+                <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.1.0/Pluck30-29.delta" sparkle:deltaFrom="29" length="865082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xQBEkrXLNXN7cnljpXOWI9+ReZTDu7LqAnQbSHXu8B4oK1AC+1KlHPTxwjZrFegs1nCNkHH6D5P0sVZIw6dZBw=="/>
             </sparkle:deltas>
         </item>
         <item>
