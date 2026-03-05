@@ -3,12 +3,23 @@
     <channel>
         <title>Pluck</title>
         <item>
+            <title>2.2.2</title>
+            <pubDate>Thu, 05 Mar 2026 15:55:34 +0000</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.2/Pluck-2.2.2.zip" length="179079070" type="application/octet-stream" sparkle:edSignature="N8rwXfV+24ZmM8PhvmQ25XER4cr+dfEFBSyRhGfoDaam1/BEtKBpPuirHgpc1xHXCndFcM90IeE/7bk5jj/QDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.2/Pluck34-33.delta" sparkle:deltaFrom="33" length="849126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yG6YSvW+63ippnuuvFufjul4insB2VxLnDZNhTUvFscKgOxfO4yw8tMn8BD76pBdvjXnWRX5316BX3o/f4ZACg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.1</title>
             <pubDate>Thu, 05 Mar 2026 00:49:26 +0000</pubDate>
             <sparkle:version>33</sparkle:version>
             <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.1/Pluck-2.2.1.zip" length="179031075" type="application/octet-stream" sparkle:edSignature="1LGeEVNz9+C2pusLGgPxZub665sFeZ2vcWwj92gXL7Tl/1VmulcyrY2TLRm7hpMQS6lVrMlUlETjuzNMBQtIDg=="/>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.2/Pluck-2.2.1.zip" length="179031075" type="application/octet-stream" sparkle:edSignature="1LGeEVNz9+C2pusLGgPxZub665sFeZ2vcWwj92gXL7Tl/1VmulcyrY2TLRm7hpMQS6lVrMlUlETjuzNMBQtIDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.1/Pluck33-32.delta" sparkle:deltaFrom="32" length="822650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H6G7Tqoop0Pi9eZJtq876WUpetqtWvWxmXDobnhJE7QmrMsNRGmbeoJqocNuYilYxTpl45mi2Uao1EX0OHwkCQ=="/>
             </sparkle:deltas>
@@ -22,17 +33,6 @@
             <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.1/Pluck-2.2.0.zip" length="178994731" type="application/octet-stream" sparkle:edSignature="STfW/Edhu/I/uaY0QiSzW94ijFXGoSE3aQ2PN2hnfcdt6iusRZDd4sLi7HNktlWZhqY1ryABgEER61CY7gg6BQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.0/Pluck32-31.delta" sparkle:deltaFrom="31" length="1442422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T9+ZyC60bPDVFXLc1i4vKY2J8Ks8XCjLSrfniTV5jehvxYLKhuCjaJjQxXS8tDp6V9Lwj87cSktxrutois+4Dg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.1.1</title>
-            <pubDate>Tue, 03 Mar 2026 20:49:03 +0000</pubDate>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.2.0/Pluck-2.1.1.zip" length="178040023" type="application/octet-stream" sparkle:edSignature="jRnQxF2L49gCyIPOYq+w8G/CDc+J3u43+aqNVXg3X1C4qbb9JyqlG9nFfeHVdFERGDR5A3r6cw7z/F45l5jmCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.1.1/Pluck31-30.delta" sparkle:deltaFrom="30" length="421666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jXK0rDDNi1LFqLvxnVoY59aOKyzGg4X2uhVxNEFGwn4x1spjWtw9CEg4gOoYCTng3SkjO/iQoZPld4WIh27DBQ=="/>
             </sparkle:deltas>
         </item>
         <item>
