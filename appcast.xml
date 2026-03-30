@@ -8,7 +8,7 @@
             <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.5.0/Pluck-2.5.0.zip" length="180304537" type="application/octet-stream" sparkle:edSignature="U5xIM1ugMDwaVwVR+6+Q4Qdx/IwCjyOvH28Gkk9NQn6RMOygNA2iRErRr1Y4qYxgt4DkLLw1J3/QyweSGYhhAQ=="/>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.5.0/Pluck-2.5.0.zip" length="180353520" type="application/octet-stream" sparkle:edSignature="01VhJPkHXmPdc93isJki4tk34BxOdPquVt5Q2h4dO4Y7kL6QJ0qiAXyxVoIF5O7wYtgUGOD5zXJACLQ6mVc1Bg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.5.0/Pluck50-48.delta" sparkle:deltaFrom="48" length="1212486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6PdvBOAI1h9uhHlL4Kea6USsqsnFyTfRhrfnSuJVsoQjg/HppoFtIhI/a7VQ7rC0/V44YzyTNzzsuULs92RQAQ=="/>
             </sparkle:deltas>
