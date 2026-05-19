@@ -8,7 +8,7 @@
             <sparkle:version>67</sparkle:version>
             <sparkle:shortVersionString>2.8.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.8.3/Pluck-2.8.3.zip" length="181061598" type="application/octet-stream" sparkle:edSignature="+YZwFA6Jc0n02IMk5zfy+u3mRlqMQNHqCtBP4bFNUlBxitoYwSPkBR5+Be1gj1+g0ykvUcxkoRpy/QKPh6TRDA=="/>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.8.3/Pluck-2.8.3.zip" length="181063009" type="application/octet-stream" sparkle:edSignature="zzVp0xdHjWzUDLoTYvwa148rkF+crdYKpsF0p6geAOVHXzfxL98RzbZN4e6uSOWL5HZcFZD5FbInQxBcji3DDg=="/>
         </item>
         <item>
             <title>2.8.2</title>
