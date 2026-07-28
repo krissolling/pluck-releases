@@ -3,6 +3,14 @@
     <channel>
         <title>Pluck</title>
         <item>
+            <title>2.8.14</title>
+            <pubDate>Tue, 28 Jul 2026 11:47:50 +0100</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>2.8.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.8.14/Pluck-2.8.14.zip" length="207340330" type="application/octet-stream" sparkle:edSignature="zsyNeIL5K0nfw0YEQQ0ese45wdUxY/Fe5u4tQBdxFAfDHVcboHbFcdi7pyrAAtAtEIpA41crdTsD2YQxEt3vDQ=="/>
+        </item>
+        <item>
             <title>2.8.13</title>
             <pubDate>Fri, 24 Jul 2026 18:36:58 +0100</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>2.8.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.8.12/Pluck-2.8.12.zip" length="207249039" type="application/octet-stream" sparkle:edSignature="x0KyAlbpRI+IcGE5CQveLdYDMxrgeC7zwluLUsCTA+q9dG2P//oI6HN9hIslPJDnQMgGYA4njFLmI/3o770UBw=="/>
-        </item>
-        <item>
-            <title>2.8.11</title>
-            <pubDate>Mon, 06 Jul 2026 15:02:16 +0100</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>2.8.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.8.11/Pluck-2.8.11.zip" length="207189464" type="application/octet-stream" sparkle:edSignature="S+aAhYZevS9xiQwe+T7ani1FcXXAYZrwgeD6kC8WvVaus1ke6dPJqCTiRANaD49B7PnndUwzimoxJRs/E195DA=="/>
         </item>
     </channel>
 </rss>
