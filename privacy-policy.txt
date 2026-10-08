@@ -1,23 +1,32 @@
-Privacy Policy — Pluck Browser Extension
+Privacy Policy — Pluck Browser Extensions
+Last updated: 8 October 2026
 
-Last updated: 22 February 2026
+Scope
+Regular Practice Limited provides the Pluck Chrome extension and Pluck for Safari. This policy describes those browser extensions. The separate Pluck desktop app provides the library, licensing, optional cloud sync and optional usage reporting.
 
-Pluck is a visual clipboard tool that captures images from web pages and saves them locally on your Mac via the Pluck macOS companion app.
+Captures and source metadata
+When you request a capture, the extension processes the selected image, video, webpage area or visible viewport. It may include source and page URLs, page title, image dimensions, surrounding text and page metadata to organize the reference. Captures may contain personal information visible on the page. Captures and metadata are sent to Pluck on your Mac through native messaging or an authenticated loopback connection. The extension does not automatically upload captures to a developer-hosted library server.
 
-Data Collection
-Pluck does not collect, transmit, or store any personal data. No information is sent to external servers. All captured images and metadata (page URL, page title) are sent exclusively to the local Pluck macOS app via Chrome native messaging and stored on your device.
+Website access
+Website permissions let the extension find media and draw capture controls on permitted pages. You can restrict or revoke access in browser settings. Some source websites require your existing signed-in browser session to resolve or fetch media. The extension does not ask for your website passwords and does not provide a password-management service.
 
-Data Sharing
-Pluck does not share any data with third parties.
+Network requests
+The extension fetches media from source websites and content delivery networks. It also fetches developer-hosted image URL configuration, served through Cloudflare. These services receive ordinary network request information such as IP address and requested resource, and may process service or security logs. The configuration request does not upload your captured media, captured page URLs or a browsing-history database. Source website and network-provider policies also apply to requests to their services.
 
-Analytics and Tracking
-Pluck does not include any analytics, telemetry, or tracking.
+Google Lens (Chrome)
+If you request a Google Lens search from Pluck, the Chrome extension sends the selected image to Google and opens the search results. This transfer is initiated by your Lens action; it is not performed for ordinary saves. Google's privacy policy applies to that search: https://policies.google.com/privacy
 
-Cookies
-Pluck does not use cookies.
+Settings and diagnostics
+The browser and Pluck app keep settings and local capture diagnostics for operation and troubleshooting. Desktop diagnostic records can include source URLs, timings and thumbnail previews. The extension contains no analytics SDK and does not automatically upload these diagnostic files. Information you choose to share in a support report is disclosed to the recipient of that report; review it before sharing.
 
-Local Storage
-The extension stores debug diagnostic snapshots in Chrome's local storage for troubleshooting purposes. This data never leaves your browser.
+Separate desktop services
+The production Pluck desktop app supports online licence validation through Polar, optional usage reporting through TelemetryDeck, and optional team/cloud sync through Cloudflare services. Media and metadata can leave your Mac when companion sync is enabled. Those desktop services are separate from ordinary local extension captures and are controlled by the app's settings and your use of those services. This extension policy does not replace the companion app's full service disclosures.
+
+Use and sharing
+Extension data is used to provide the requested capture, organization and image-search functions. It is not sold or used for advertising, unrelated browsing profiling, creditworthiness or lending decisions. Pluck's use and transfer of information received from Google APIs adhere to the Chrome Web Store User Data Policy, including its Limited Use requirements.
+
+Retention and controls
+Captured items remain in your Pluck library until you delete them. Manage captured items and any synced copies through the desktop app. You can disable or uninstall the extension and restrict website access in browser settings. Uninstalling the extension does not delete the separate desktop library. Browser/desktop settings and local diagnostic files have their own local lifecycle; they are not a remote extension capture archive.
 
 Contact
-For questions about this policy, open an issue at https://github.com/krissolling/pluck-releases/issues
+For privacy questions, contact kristoffer@regularpractice.co.uk. General support is available at https://github.com/krissolling/pluck-releases/issues. Do not post passwords, licence keys, private captures or private URLs in public issues.
