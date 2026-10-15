@@ -1,0 +1,51 @@
+name: Upload verified prepared release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Prepared version (for example 2.9.0)
+        required: true
+      zip_sha256:
+        description: Expected SHA-256 of the notarized Sparkle ZIP
+        required: true
+      dmg_sha256:
+        description: Expected SHA-256 of the installer DMG
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prepared-release-upload
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERSION: ${{ inputs.version }}
+      ZIP_SHA256: ${{ inputs.zip_sha256 }}
+      DMG_SHA256: ${{ inputs.dmg_sha256 }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Download and verify the prepared files
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          [[ "$ZIP_SHA256" =~ ^[a-f0-9]{64}$ ]]
+          [[ "$DMG_SHA256" =~ ^[a-f0-9]{64}$ ]]
+          base="https://pub-7a047610d1c94d6f95b8aabc64af19f5.r2.dev/releases"
+          curl --fail --location --retry 3 --output "Pluck-$VERSION.zip" "$base/Pluck-$VERSION.zip"
+          curl --fail --location --retry 3 --output "Pluck-$VERSION.dmg" "$base/Pluck-$VERSION.dmg"
+          printf '%s  %s\n' "$ZIP_SHA256" "Pluck-$VERSION.zip" "$DMG_SHA256" "Pluck-$VERSION.dmg" | sha256sum --check --strict
+      - name: Upload only to the existing draft
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(gh release view "v$VERSION" --json isDraft --jq .isDraft)" = true
+          gh release upload "v$VERSION" "Pluck-$VERSION.zip" "Pluck-$VERSION.dmg" --clobber
+          gh release view "v$VERSION" --json assets --jq '.assets[] | {name,size,state,digest}'
