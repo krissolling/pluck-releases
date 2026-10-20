@@ -3,6 +3,14 @@
     <channel>
         <title>Pluck</title>
         <item>
+            <title>2.12.0</title>
+            <pubDate>Tue, 20 Oct 2026 23:33:10 +0100</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.12.0/Pluck-2.12.0.zip" length="207908711" type="application/octet-stream" sparkle:edSignature="4TYkxPxOwFdPTw+RrwtHIjfrEew9tyDrUIfY5pgyJm93KjdvRq/DzLf6UNx2UdBLXEN9ZYFlXcTTe+acI2jYCg=="/>
+        </item>
+        <item>
             <title>2.11.0</title>
             <pubDate>Fri, 16 Oct 2026 10:35:50 +0100</pubDate>
             <sparkle:version>92</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.10.0/Pluck-2.10.0.zip" length="207770971" type="application/octet-stream" sparkle:edSignature="A9NrJRaJtMvq5CBLs69H5Uu/pALr77aoK6OyKhG111EAhDFX/wYTEjPVpIIVF4741ER+MZDXXpaFs0Km8iO7AQ=="/>
-        </item>
-        <item>
-            <title>2.10.0</title>
-            <pubDate>Fri, 16 Oct 2026 08:04:09 +0100</pubDate>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.10.0/Pluck-2.10.0.zip" length="207771021" type="application/octet-stream" sparkle:edSignature="ds9746O8dBFvWZAY4m/x3k5U4AQlNq6A6C56X6rVdOujW5I6dlFyGebcUeXsC00MpO0H5KOKHYIk9nskvy+zDA=="/>
         </item>
     </channel>
 </rss>
