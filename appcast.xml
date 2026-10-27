@@ -3,12 +3,12 @@
     <channel>
         <title>Pluck</title>
         <item>
-            <title>2.12.3</title>
-            <pubDate>Fri, 23 Oct 2026 16:54:10 +0100</pubDate>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>2.12.3</sparkle:shortVersionString>
+            <title>2.12.4</title>
+            <pubDate>Tue, 27 Oct 2026 13:18:01 +0000</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>2.12.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.12.3/Pluck-2.12.3.zip" length="208043759" type="application/octet-stream" sparkle:edSignature="n1Ky7HtI5/rka2tntS7NKdd92HvvqWTDALD+uL6Ib3nSwtRvpoKyxhFC1IrzrgxkB/19QwusR31Ke9R4U0I3Bw=="/>
+            <enclosure url="https://github.com/krissolling/pluck-releases/releases/download/v2.12.4/Pluck-2.12.4.zip" length="207823770" type="application/octet-stream" sparkle:edSignature="2W9t9+M8tqTuSeYcNRwVhLX2TA8oB1Od8xmnCeJX7Ahob5RGJSaPfy63MEQl27syL8HBrVehCsKxXb4gUAweCw=="/>
         </item>
     </channel>
 </rss>
