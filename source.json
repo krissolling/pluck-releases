@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "version": "2.13.2",
+  "build": 104,
+  "sourceCommit": "f6fe39b97fe72caba91bd4b8a741d1317e6ba8ff",
+  "sourceTree": "8948e6aaf140989680fd48e2fa77d3b1640b0289",
+  "previousSourceCommit": "7fc687335a8c01472d3598a53b39b14d213622fc",
+  "requiredFixCommits": [
+    "78f73fb13cb503977b34a8e0306b85ffacf5567a"
+  ],
+  "artifacts": {
+    "Pluck-2.13.2.zip": "e3cf8e6f952662a5103d1a9c37a0348ba60032a3f403965fd60e5e6dc899ae05",
+    "Pluck-2.13.2.dmg": "9d3d8cdd2cf0069cc37e8d45a20d2ff4b88b90b947453f168f4967f16b38eba1"
+  }
+}
